@@ -1,11 +1,17 @@
+# Sensitive info
+constants.py
+testings/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.ipynb
+*.pickle
 # C extensions
 *.so
-
+*.packaging
+*.csv
+*.png
 # Distribution / packaging
 .Python
 build/
@@ -19,6 +25,7 @@ lib64/
 parts/
 sdist/
 var/
+Deployment/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
