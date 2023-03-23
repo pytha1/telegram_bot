@@ -505,7 +505,7 @@ class WebScraping(threading.Thread):
                 # logger.info(f"Running {uid['name']}.")
                 try:
                     r = requests.post("https://www.binance.com/bapi/futures/v1/public/future/leaderboard/getOtherPosition",json={
-                        "encryptedUid": uid['uid'],
+                        "encryptedUid": 'F34D356A6257FBE82874AB89411E09D7',
                         "tradeType": "PERPETUAL"
                     })
                     assert r.status_code == 200
