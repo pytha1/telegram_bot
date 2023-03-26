@@ -549,11 +549,11 @@ class WebScraping(threading.Thread):
             #     self.driver = webdriver.Chrome(driver_location, options=options)
             
 
-    #def stop(self):
-        #self.isStop.set()
+    def stop(self):
+        self.isStop.set()
 
-    #def pause(self):
-        #self.pauseload.set()
+    def pause(self):
+        self.pauseload.set()
 
-    #def resume(self):
-        #self.pauseload.clear()
+    def resume(self):
+        self.pauseload.clear()
